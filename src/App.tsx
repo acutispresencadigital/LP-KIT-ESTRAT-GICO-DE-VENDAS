@@ -41,10 +41,10 @@ const UrgencyBar = () => {
 
   return (
     <div className="bg-brand-red text-white">
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-4 md:px-8 py-2.5 gap-3">
+      <div className="max-w-7xl mx-auto flex items-center justify-between px-4 md:px-8 py-4 md:py-6 gap-3">
         <div className="flex items-center gap-2 text-[10px] font-bold uppercase tracking-widest flex-1">
-          <Zap size={14} className="fill-white animate-pulse shrink-0" />
-          <span className="leading-none text-[9px] md:text-[11px]">GUIA ESTRATÉGICO DE VENDAS — VAGAS LIMITADAS</span>
+          <Zap size={16} className="fill-white animate-pulse shrink-0" />
+          <span className="leading-none text-[10px] md:text-[13px]">Guia prático para ATRAIR MAIS CLIENTES + 3 BÔNUS EXCLUSIVOS! — VAGAS LIMITADAS</span>
         </div>
         <div className="flex items-center gap-2 bg-black/20 px-3 py-1 md:py-1.5 rounded-full shrink-0">
           <span className="font-display text-[14px] md:text-[16px] font-black tabular-nums tracking-tighter leading-none">
@@ -60,15 +60,15 @@ const Navbar = () => (
   <nav className="bg-white/80 backdrop-blur-md border-b border-black/5 sticky top-0 z-50">
     <div className="max-w-7xl mx-auto flex items-center justify-between px-4 md:px-8 py-4">
       <div className="font-display text-lg md:text-xl font-black tracking-tighter text-slate-950">
-        ACUTIS
+        GUIA PRÁTICO
       </div>
       <div className="flex items-center gap-6">
         <div className="hidden md:flex items-center gap-8 text-[11px] font-black uppercase tracking-widest text-slate-500">
           <a href="#problema" className="hover:text-brand-blue transition-colors">Problema</a>
           <a href="#solucao" className="hover:text-brand-blue transition-colors">Solução</a>
         </div>
-        <a href="#preco" className="bg-brand-blue text-white text-[10px] font-bold uppercase tracking-[0.15em] rounded-full px-5 py-2.5 flex items-center gap-2 shadow-lg shadow-brand-blue/20 transition-transform active:scale-95">
-          ACESSAR AGORA
+        <a href="https://pay.cakto.com.br/m8axuid_866702" className="bg-brand-blue text-white text-[10px] font-bold uppercase tracking-[0.15em] rounded-full px-5 py-2.5 flex items-center gap-2 shadow-lg shadow-brand-blue/20 transition-transform active:scale-95">
+          PEGAR MEU GUIA AGORA
           <ArrowUpRight size={12} strokeWidth={3} />
         </a>
       </div>
@@ -94,8 +94,8 @@ const Hero = () => (
         </p>
         
         <div className="flex flex-col sm:flex-row items-center gap-6 mb-10">
-          <a href="#preco" className="w-full sm:w-auto min-w-0 sm:min-w-[280px] flex items-center justify-between bg-brand-blue text-white rounded-xl md:rounded-2xl px-6 py-4.5 md:py-5 text-[11px] md:text-[12px] font-black uppercase tracking-[0.15em] transition-all active:scale-[0.98] shadow-xl shadow-brand-blue/20 border-b-4 border-black/20">
-            GARANTIR MEU ACESSO AGORA
+          <a href="https://pay.cakto.com.br/m8axuid_866702" className="w-full sm:w-auto min-w-0 sm:min-w-[280px] flex items-center justify-between bg-brand-blue text-white rounded-xl md:rounded-2xl px-6 py-4.5 md:py-5 text-[11px] md:text-[12px] font-black uppercase tracking-[0.15em] transition-all active:scale-[0.98] shadow-xl shadow-brand-blue/20 border-b-4 border-black/20">
+            PEGAR MEU GUIA AGORA
             <div className="w-8 h-8 md:w-9 md:h-9 rounded-full bg-white/10 flex items-center justify-center shrink-0 ml-4">
               <ArrowRight size={16} md:size={18} strokeWidth={3} />
             </div>
@@ -232,7 +232,7 @@ const ProductSection = () => (
             Não é um curso. É um sistema prático para implementar imediatamente no seu negócio.
           </p>
           <div className="hidden lg:block p-8 bg-slate-50 rounded-3xl border border-black/5">
-            <h5 className="font-display text-sm font-black text-slate-950 uppercase tracking-widest mb-4">Diferencial Acutis</h5>
+            <h5 className="font-display text-sm font-black text-slate-950 uppercase tracking-widest mb-4">Diferenciais do Guia</h5>
             <div className="space-y-4">
               <div className="flex gap-3 text-sm text-slate-600 font-medium">
                 <CircleCheck size={18} className="text-[#25D366] shrink-0" />
@@ -329,7 +329,7 @@ const PricingSection = () => (
           <span className="inline-block bg-[#25D366] text-white text-[9px] md:text-[10px] font-black uppercase tracking-[0.25em] px-4 md:px-5 py-2 md:py-2.5 rounded-full mb-6 md:mb-8 shadow-xl shadow-[#25D366]/20">
             OFERTA LIMITADA
           </span>
-          <h3 className="font-display text-[22px] md:text-[36px] font-black tracking-tight md:tracking-tighter mb-3 md:mb-4 uppercase">Master Kit de Guias Estratégicos</h3>
+          <h3 className="font-display text-[22px] md:text-[36px] font-black tracking-tight md:tracking-tighter mb-3 md:mb-4 uppercase">Guia prático para ATRAIR MAIS CLIENTES + 3 BÔNUS EXCLUSIVOS!</h3>
           <p className="text-[13px] md:text-[16px] text-white/70 leading-relaxed mb-8 md:mb-10 font-medium">
             Tudo o que você precisa para parar de depender de indicações e construir uma máquina de vendas previsível.
           </p>
@@ -368,8 +368,8 @@ const PricingSection = () => (
             </span>
           </div>
           
-          <a href="#checkout" className="flex items-center justify-between bg-[#25D366] text-white rounded-2xl md:rounded-[24px] px-6 md:px-8 py-5 md:py-6 text-[12px] md:text-[14px] font-black uppercase tracking-[0.2em] mb-8 md:mb-10 shadow-2xl shadow-[#25D366]/40 transition-all hover:-translate-y-1 active:scale-95 group">
-            PEGAR MEU KIT AGORA
+          <a href="https://pay.cakto.com.br/m8axuid_866702" className="flex items-center justify-between bg-[#25D366] text-white rounded-2xl md:rounded-[24px] px-6 md:px-8 py-5 md:py-6 text-[12px] md:text-[14px] font-black uppercase tracking-[0.2em] mb-8 md:mb-10 shadow-2xl shadow-[#25D366]/40 transition-all hover:-translate-y-1 active:scale-95 group">
+            PEGAR MEU GUIA AGORA
             <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-white/20 flex items-center justify-center shrink-0 group-hover:translate-x-2 transition-transform">
               <ArrowRight size={18} md:size={22} strokeWidth={3} />
             </div>
@@ -399,16 +399,13 @@ const PricingSection = () => (
 
 
 const Footer = () => (
-  <footer className="bg-white border-t border-slate-100 px-4 py-6 text-center">
-    <div className="font-display text-[13px] font-black text-slate-300 uppercase tracking-widest mb-3">
-      ACUTIS
-    </div>
+  <footer className="bg-white border-t border-slate-100 px-4 py-8 text-center">
     <div className="flex items-center justify-center gap-1.5 text-slate-400 mb-2">
       <ShieldCheck size={12} strokeWidth={2.5} />
       <span className="text-[8px] font-bold uppercase tracking-[0.15em]">AMBIENTE 100% SEGURO E CRIPTOGRAFADO</span>
     </div>
     <p className="text-[8px] font-bold text-slate-300 uppercase tracking-widest">
-      © 2024 ACUTIS — TODOS OS DIREITOS RESERVADOS.
+      © 2024 — TODOS OS DIREITOS RESERVADOS.
     </p>
   </footer>
 );
