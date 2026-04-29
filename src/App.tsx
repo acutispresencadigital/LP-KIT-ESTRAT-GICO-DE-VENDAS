@@ -63,7 +63,7 @@ const Navbar = () => (
         Não deixe pra depois o que você pode mudar agora
       </div>
       <div className="flex items-center gap-6 w-full md:w-auto justify-end">
-        <a href="https://pay.cakto.com.br/m8axuid_866702" className="bg-brand-blue text-white text-[10px] font-bold uppercase tracking-[0.15em] rounded-full px-5 py-2.5 flex items-center gap-2 shadow-lg shadow-brand-blue/20 transition-transform active:scale-95">
+        <a href="https://pay.cakto.com.br/m8axuid_866702" onClick={() => (window as any).fbq?.('track', 'InitiateCheckout')} className="bg-brand-blue text-white text-[10px] font-bold uppercase tracking-[0.15em] rounded-full px-5 py-2.5 flex items-center gap-2 shadow-lg shadow-brand-blue/20 transition-transform active:scale-95">
           PEGAR MEU GUIA AGORA
           <ArrowUpRight size={12} strokeWidth={3} />
         </a>
@@ -90,7 +90,7 @@ const Hero = () => (
         </p>
         
         <div className="flex flex-col sm:flex-row items-center gap-6 mb-10">
-          <a href="https://pay.cakto.com.br/m8axuid_866702" className="w-full sm:w-auto min-w-0 sm:min-w-[280px] flex items-center justify-between bg-brand-blue text-white rounded-xl md:rounded-2xl px-6 py-4.5 md:py-5 text-[11px] md:text-[12px] font-black uppercase tracking-[0.15em] transition-all active:scale-[0.98] shadow-xl shadow-brand-blue/20 border-b-4 border-black/20">
+          <a href="https://pay.cakto.com.br/m8axuid_866702" onClick={() => (window as any).fbq?.('track', 'InitiateCheckout')} className="w-full sm:w-auto min-w-0 sm:min-w-[280px] flex items-center justify-between bg-brand-blue text-white rounded-xl md:rounded-2xl px-6 py-4.5 md:py-5 text-[11px] md:text-[12px] font-black uppercase tracking-[0.15em] transition-all active:scale-[0.98] shadow-xl shadow-brand-blue/20 border-b-4 border-black/20">
             PEGAR MEU GUIA AGORA
             <div className="w-8 h-8 md:w-9 md:h-9 rounded-full bg-white/10 flex items-center justify-center shrink-0 ml-4">
               <ArrowRight size={16} md:size={18} strokeWidth={3} />
@@ -364,7 +364,7 @@ const PricingSection = () => (
             </span>
           </div>
           
-          <a href="https://pay.cakto.com.br/m8axuid_866702" className="flex items-center justify-between bg-[#25D366] text-white rounded-2xl md:rounded-[24px] px-6 md:px-8 py-5 md:py-6 text-[12px] md:text-[14px] font-black uppercase tracking-[0.2em] mb-8 md:mb-10 shadow-2xl shadow-[#25D366]/40 transition-all hover:-translate-y-1 active:scale-95 group">
+          <a href="https://pay.cakto.com.br/m8axuid_866702" onClick={() => (window as any).fbq?.('track', 'InitiateCheckout')} className="flex items-center justify-between bg-[#25D366] text-white rounded-2xl md:rounded-[24px] px-6 md:px-8 py-5 md:py-6 text-[12px] md:text-[14px] font-black uppercase tracking-[0.2em] mb-8 md:mb-10 shadow-2xl shadow-[#25D366]/40 transition-all hover:-translate-y-1 active:scale-95 group">
             PEGAR MEU GUIA AGORA
             <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-white/20 flex items-center justify-center shrink-0 group-hover:translate-x-2 transition-transform">
               <ArrowRight size={18} md:size={22} strokeWidth={3} />
