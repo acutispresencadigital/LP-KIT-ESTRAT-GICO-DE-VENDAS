@@ -59,14 +59,10 @@ const UrgencyBar = () => {
 const Navbar = () => (
   <nav className="bg-white/80 backdrop-blur-md border-b border-black/5 sticky top-0 z-50">
     <div className="max-w-7xl mx-auto flex items-center justify-between px-4 md:px-8 py-4">
-      <div className="font-display text-lg md:text-xl font-black tracking-tighter text-slate-950">
-        GUIA PRÁTICO
+      <div className="hidden md:block text-[11px] font-bold text-slate-500 uppercase tracking-widest">
+        Não deixe pra depois o que você pode mudar agora
       </div>
-      <div className="flex items-center gap-6">
-        <div className="hidden md:flex items-center gap-8 text-[11px] font-black uppercase tracking-widest text-slate-500">
-          <a href="#problema" className="hover:text-brand-blue transition-colors">Problema</a>
-          <a href="#solucao" className="hover:text-brand-blue transition-colors">Solução</a>
-        </div>
+      <div className="flex items-center gap-6 w-full md:w-auto justify-end">
         <a href="https://pay.cakto.com.br/m8axuid_866702" className="bg-brand-blue text-white text-[10px] font-bold uppercase tracking-[0.15em] rounded-full px-5 py-2.5 flex items-center gap-2 shadow-lg shadow-brand-blue/20 transition-transform active:scale-95">
           PEGAR MEU GUIA AGORA
           <ArrowUpRight size={12} strokeWidth={3} />
@@ -173,7 +169,7 @@ const PainSection = () => (
       <div className="text-center md:text-left mb-12 md:mb-16">
         <span className="text-brand-red text-[8px] md:text-[10px] font-black uppercase tracking-[0.4em] mb-4 block">A DURA REALIDADE</span>
         <h2 className="font-display text-[26px] md:text-[54px] font-black leading-[1.1] md:leading-[1.0] tracking-tight md:tracking-tighter mb-8 uppercase">
-          Viver de indicação é sorte.<br />
+          VIVER DE INDICAÇÃO É JOGAR COM A SORTE.<br />
           <span className="text-slate-400 italic lowercase font-sans font-medium">E sorte não paga boletos.</span>
         </h2>
       </div>
@@ -320,7 +316,7 @@ const PricingSection = () => (
           Assuma o controle.
         </h2>
         <p className="text-[14px] md:text-[20px] text-slate-500 leading-relaxed font-medium max-w-2xl mx-auto">
-          O preço de um café por dia para mudar o rumo do seu faturamento e a liberdade do seu negócio.
+          Menos de R$2 por dia para mudar o rumo do seu faturamento e a liberdade do seu negócio.
         </p>
       </div>
       
